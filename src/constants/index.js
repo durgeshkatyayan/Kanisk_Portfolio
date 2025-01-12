@@ -23,8 +23,6 @@ import {
   math,
   movie,
   nyeusi,
-  nyeus,
-  space,
   coverhunt,
   dcc,
   kelhel,
