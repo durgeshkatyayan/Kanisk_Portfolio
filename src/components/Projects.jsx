@@ -150,6 +150,7 @@ const Projects = () => {
           ))}
         </div>
       </motion.div>
+
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -168,6 +169,7 @@ const Projects = () => {
           ))}
         </div>
       </motion.div>
+      
       <h2 className='text-white'>Next Post Come in Future ...</h2>
 
     </div>

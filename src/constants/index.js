@@ -27,7 +27,8 @@ import {
   dcc,
   kelhel,
   microverse,
-  map
+  map,
+  whats
 } from '../assets';
 
 export const navLinks = [
@@ -295,6 +296,29 @@ const project = [
     image: nyeusi,
     repo: 'https://github.com/durgeshkatyayan',
     demo: 'https://kanpuriyakalakar.com/',
+  },
+  {
+    id: 'project-3',
+    name: 'Redbricks-Exam',
+    description:
+      'This project is besically based on handling exam .',
+    tags: [
+      {
+        name: 'Next',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'appwrite',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: whats,
+    repo: 'https://github.com/durgeshkatyayan',
+    demo: 'https://redbricks.net.in/',
   },
 ]
 export { services, technologies, experiences, projects ,project};
